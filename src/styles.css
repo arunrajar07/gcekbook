@@ -1,0 +1,181 @@
+body{
+  background-color: #212121;
+}
+.body{
+  width: inherit;
+  overflow: auto;
+  margin: auto;
+  padding: 5px;
+  border: 3px solid #D32F2F ;
+  border-radius: 30px;
+  background-color: #FAFAFA;
+}
+.nav{
+  width: inherit;
+  height: auto;
+  padding: auto;
+  overflow: auto;
+}
+.nav button{
+  position: sticky;
+  overflow: auto;
+  width: 46%;
+  height: 40px;
+  margin: 1%;
+  display: inline-block;
+}
+
+
+
+
+.presentoffm{
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+.majoroff{
+  display: block;
+  margin-bottom:20px;
+}
+.minoroff{
+  display:block;
+}
+.cntctcard{
+  display: block;
+  width:99%;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  background-color: white;
+  border: 2.5px dashed #3498DB;
+  border-radius: 20px;
+}
+.cntctcard:hover{
+  background-color: #E0F7FA;
+  border: 2.5px solid #3498DB;
+}
+.cntctcard img{
+  margin: 10px;
+  border:2px solid #3498DB;
+  border-bottom:10px solid #3498DB;
+  border-radius: 150px;
+}
+.cntctcard img:hover{
+  border-color: #27AE60;
+}
+.cntctcard h4{
+  font-size: 18px;
+  padding: 0px;
+  margin: 2px;
+}
+.cntctcard h5{
+  font-size: 16px;
+  color: #566573;
+  padding: 0px;
+  margin: 2px;
+}
+.cntctcard p{
+  font-size: 12px;
+}
+.cntctcards{
+  display: inline-block;
+  width: 90%;
+  padding:auto;
+  margin: 4.5%;
+  min-height: 270px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: auto;
+}
+.cntctcards:hover{
+  background-color: #E0F7FA;
+}
+.cntctcards h4{
+  font-size: 13px;
+  padding: 0px;
+  margin: 2px;
+}
+.cntctcards h5{
+  font-size: 11px;
+  color: #566573;
+  padding: 0px;
+  margin: 2px;
+}
+.cntctcards p{
+  font-size: 11px;
+}
+.cntctcards img{
+  margin-top:5px;
+  border-radius: 200px;
+}
+.cntctbttn {
+  background-color: #3498DB;
+  color: white;
+  cursor: pointer;
+  padding:auto;
+  width: 100px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+.actcntctbttn, .cntctbttn:hover {
+  background-color: #27AE60;
+}
+.cntctdet {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+.mvtotop{
+  background-color: #2ECC71;
+  display:block;
+  width:100%;
+  padding:10px;
+  color:white;
+  text-decoration:none;
+  border-radius: 100px;
+}
+
+@media only screen and (min-width:550px){
+  .cntctcards{
+    width:45%;
+    margin: 2.3%;
+}
+}
+@media only screen and (min-width:700px) {
+  .cntctcards{
+    width:25%;
+    margin:3.5%;
+  }
+  .cntctcard{
+    margin: 1.5%;
+    width: 45%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .presentoffm{
+    width: 90%;
+  }
+  .cntctcard p{
+    font-size: 14px;
+  }
+  .cntctcards{
+    width: 15%;
+    margin:2.3%;
+    display: inline-block;
+  }
+  .cntctcards p{
+    font-size: 12px;
+  }
+  .cntctcards h4{
+    font-size: 16px;
+  }
+  .cntctcards h5{
+    font-size: 14px;
+  }
+}
