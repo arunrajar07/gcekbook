@@ -8,7 +8,7 @@
   <body>
     <div class="body">
       <div class="nav">
-        <button type="button" name="button" class="feedbutton">Feeds</button>
+        <button type="button" name="button" class="feedbutton">Feed</button>
         <button type="button" name="button" class="profilebutton">Profile</button>
       </div>
       <div class="feed">

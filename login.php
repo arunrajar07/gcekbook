@@ -147,7 +147,7 @@
 
     <div class="cntctcards" align="center">
       <img width="100px" height="100px" src="https://ia.ie.pels.ieeekerala.org/wp-content/uploads/2018/02/IMG-20180221-WA0000-e1519153861196.jpg" alt="Mr. Jithin K Jose">
-      <h4>Mr. Jithin K Jose</h4>
+      <h4>Mr. abc Jithin K Jose</h4>
       <h5>Representative-Kochi Subsection</h5>
       <p>Assistant Professor Dept. of EEE</p>
       <p>Jyothi Engineering College Cheruthuruthy</p>
